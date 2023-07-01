@@ -1,0 +1,90 @@
+/* Write your CSS here */
+
+.bg-main-container {
+  background: linear-gradient(to left, #fc63a7, #fa7257);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+}
+
+@media screen and (max-width: 576px) {
+  .bg-main-container {
+    width: 50%;
+  }
+}
+
+.title {
+  font-family: 'Roboto';
+  font-size: 30px;
+  color: #ffff;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.names-container {
+  display: flex;
+}
+
+.firstName-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.firstName-btn {
+  height: 40px;
+  width: 160px;
+  font-family: 'Roboto';
+  font-size: 14px;
+  color: #dd1264;
+  font-weight: 600;
+  border-radius: 10px;
+  border: none;
+  background-color: #fddddb;
+}
+
+@media screen and (max-width: 576px) {
+  .names-container {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.secondName-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 100px;
+}
+
+.secondName-btn {
+  height: 40px;
+  width: 160px;
+  font-family: 'Roboto';
+  font-size: 14px;
+  color: #dd1264;
+  font-weight: 600;
+  border-radius: 10px;
+  border: none;
+  background-color: #fddddb;
+}
+
+.details-container {
+  text-align: center;
+  padding-top: 30px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 30px;
+  margin-top: 30px;
+  background-color: #fddddb;
+  border-radius: 10px;
+}
+
+.name-sty {
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 500;
+}
